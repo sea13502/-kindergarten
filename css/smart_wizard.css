@@ -1,0 +1,196 @@
+.swMain {
+	overflow: visible;
+	margin: 0 auto;
+	width: 990px
+}
+.swMain, .swMain .stepContainer {
+	position: relative;
+	padding: 0;
+	border: 0 solid #ccc
+}
+.swMain .stepContainer {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin: 0
+}
+.swMain .stepContainer div.content {
+	position: absolute;
+	float: left;
+	overflow: visible;
+	margin: 0;
+	padding: 5px;
+	width: 978px;
+	height: 550px
+}
+.swMain .stepContainer div.content, .swMain div.actionBar {
+	z-index: 88;
+	clear: both;
+	display: block;
+	border: 0 solid #cce5ee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #fff;
+	color: #000000;
+	text-align: left
+}
+.swMain div.actionBar {
+	position: relative;
+	left: 0;
+	overflow: auto;
+	margin: 5px 0 10px;
+	padding: 0;
+	width: 990px;
+	height: 40px
+}
+.swMain .stepContainer .StepTitle {
+	position: relative;
+	z-index: 88;
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 5px;
+	/*height: 30px;*/
+	border: 0 solid #2f99f2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #5abd4f;
+	color: #fff;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 30px
+}
+.swMain ul.anchor {
+	clear: both;
+	margin: 10px 0;
+	border: 0 solid #ccc;
+	background: 0 0;
+	list-style: none
+}
+.swMain ul.anchor, .swMain ul.anchor li {
+	position: relative;
+	float: left;
+	display: block;
+	padding: 0
+}
+.swMain ul.anchor li {
+	margin: 0;
+	padding-right: 3px;
+	padding-left: 3px;
+	border: 0 solid #e0e0e0
+}
+.swMain ul.anchor li a {
+	position: relative;
+	z-index: 99;
+	float: left;
+	display: block;
+	margin: 0;
+	width: 239px;
+	/*height: 72px;*/
+	outline-style: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-decoration: none
+}
+.swMain ul.anchor li a .stepNumber {
+	position: relative;
+	float: left;
+	padding: 7px 5px 5px 0;
+	width: 75px;
+	color: #fff;
+	text-align: center;
+	font: 700 45px Verdana, Arial, Helvetica, sans-serif
+}
+.swMain ul.anchor li a .stepDesc {
+	position: relative;
+	float: left;
+	display: block;
+	text-align: left;
+	font: 700 35px Verdana, Arial, Helvetica, sans-serif
+}
+.swMain ul.anchor li a .stepDesc small {
+	float: left;
+	font: 400 22px Verdana, Arial, Helvetica, sans-serif
+}
+.swMain ul.anchor li a.selected {
+	border: 0 solid #ff8737;
+	box-shadow: 0 0 0 #888;
+	color: #ffa632;
+	cursor: text
+}
+.swMain ul.anchor li a.selected, .swMain ul.anchor li a.selected:hover {
+	background: url(../images/icon2.jpg) no-repeat;
+	color: #ffa632
+}
+.swMain ul.anchor li a.done {
+	position: relative;
+	z-index: 99
+}
+.swMain ul.anchor li a.done, .swMain ul.anchor li a.done:hover {
+	border: 0 solid #04b5e9;
+	background: url(../images/icon3.jpg) no-repeat;
+	color: #83d236
+}
+.swMain ul.anchor li a.disabled {
+	border: 0 solid #6da1ff;
+	cursor: text
+}
+.swMain ul.anchor li a.disabled, .swMain ul.anchor li a.disabled:hover {
+	background: url(../images/icon1.jpg) no-repeat;
+	color: #7ab2ff
+}
+.swMain ul.anchor li a.error {
+	border: 1px solid #fb3500!important;
+	background: #f08f75!important;
+	color: #6c6c6c!important
+}
+.swMain ul.anchor li a.error:hover {
+	color: #000!important
+}
+.swMain .buttonNext {
+	float: right;
+	display: block;
+	margin: 5px 3px 0;
+	padding: 5px;
+	width: 75pt;
+	outline-style: none;
+	border: 0 solid #1dc377;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #5db934;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font: 700 13px Verdana, Arial, Helvetica, sans-serif
+}
+.swMain .buttonDisabled {
+	border: 0 solid #a8d9c2!important;
+	background-color: #82cb62!important;
+	color: #fff!important;
+	cursor: text
+}
+.swMain .buttonPrevious {
+	float: right;
+	display: block;
+	margin: 5px 3px 0;
+	padding: 5px;
+	width: 75pt;
+	outline-style: none;
+	border: 0 solid #1dc377;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #5db934;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font: 700 13px Verdana, Arial, Helvetica, sans-serif
+}
+.txtBox {
+	padding: 2px;
+	width: 430px;
+	color: #5a5655;
+	font: 13px Verdana, Arial, Helvetica, sans-serif
+}
+.txtBox:focus {
+	border: 1px solid #ea8511
+}

@@ -1,0 +1,39 @@
+#kbback {
+	background: url("../images/keyboard.png") no-repeat;
+}
+#kbclose {
+	background: url("../images/keyboard.png") no-repeat;
+}
+.kbkey {
+	background: url("../images/keyboard.png") no-repeat;
+}
+.kbmouseover {
+	background: url("../images/keyboard.png") no-repeat;
+}
+.kbdiv {
+	background: rgb(255, 255, 255); padding: 5px; border-radius: 3px; border: 3px solid rgb(226, 81, 2); border-image: none; width: 310px; font-family: "΢���ź�"; font-size: 9pt;
+}
+.kbdiv em {
+	font-style: normal; cursor: pointer;
+}
+.kbkey {
+	margin: 2px; width: 20px; height: 20px; text-align: center; font-size: 14px; display: inline-block;
+}
+.kbmouseover {
+	background-position: -21px 0px; color: rgb(255, 255, 255);
+}
+.kbdiv table {
+	border-collapse: collapse;
+}
+#kbclose {
+	background-position: 0px -22px; width: 68px;
+}
+#kbback {
+	height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 9pt; display: block;
+}
+#kbclose {
+	height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 9pt; display: block;
+}
+#kbback {
+	background-position: 0px -45px; width: 44px; margin-left: 3px;
+}
